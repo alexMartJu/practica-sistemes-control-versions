@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Práctica</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                border: 1px solid black;
+            }
+
+            header {
+                background-color: #219ebc;
+                text-align: center;
+                padding: 30px;
+                border-bottom: 1px solid black;
+            }
+
+            header h1 {
+                font-size: 18px;
+            }
+
+            nav {
+                border-bottom: 1px solid black;
+            }
+
+            nav ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                padding: 0;
+            }
+
+            nav ul li {
+                width: 25%;
+                text-align: center;
+            }
+
+            nav ul li a {
+                display: block;
+                padding: 15px;
+                text-decoration: none;
+                color: black;
+                border-left: 1px solid black;
+            }
+
+            nav ul li:first-child a {
+                border-left: none;
+            }
+
+            nav ul li a:hover {
+                background-color: #219ebc;
+            }
+
+
+            main {
+                min-height: 300px;
+                margin: 0 auto;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 20px;
+            }
+
+            main section {
+                border-bottom: 1px solid #333;
+                padding: 50px;
+                width: 100%;
+                text-align: center;
+                background-color: white;
+            }
+
+            footer {
+                text-align: center;
+                padding: 30px;
+                background-color: #219ebc;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Curso de JavaScript aplicado a HTML</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Home</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="inicio">
+                <p>Este curso proporciona una introducción al JavaScript aplicado a las interacciones con elementos HTML.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Curso de JavaScript y HTML</p>
+        </footer>
+    </body>
+
+</html>
