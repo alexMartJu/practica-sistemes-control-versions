@@ -193,7 +193,7 @@ Per a començar en la pràctica, crearem abans de tot el repositori en aquest ca
 6. **Pujada de canvis a la branca develop en remot**.
     Finalment, pujarem els canvis a la branca develop en el repositori remot amb un push.
 
-    ![alt text](imgs/5.PNG)
+    ![alt text](imgs/7.PNG)
 
 ### 2.4 Desenvolupament de les funcionalitats (Usuari 2)
 
