@@ -85,6 +85,20 @@
                 padding: 30px;
                 background-color: #219ebc;
             }
+
+            section h2 {
+                margin-bottom: 10px;
+            }
+
+            button {
+                background-color: #219ebc;
+                padding: 10px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #197b98;
+            } 
         </style>
     </head>
 
@@ -96,6 +110,7 @@
         <nav>
             <ul>
                 <li><a href="#inicio">Home</a></li>
+                <li><a href="#modificar_contenido_html">Modificar contenido HTML</a></li>
             </ul>
         </nav>
 
@@ -103,6 +118,14 @@
             <section id="inicio">
                 <p>Este curso proporciona una introducción al JavaScript aplicado a las interacciones con elementos HTML.
                 </p>
+            </section>
+
+            <!-- Aquest exemple mostra com modificar el contingut d'un element HTML utilitzant JavaScript i la propietat innerHTML. -->
+            <section id="modificar_contenido_html">
+                <h2>Modificar contenido HTML</h2>
+                <button onclick="document.getElementById('demo').innerHTML = 'El contenido ha sido modificado!'">Cambiar
+                    Contenido</button>
+                <p id="demo">Este es el contenido original.</p>
             </section>
         </main>
 
