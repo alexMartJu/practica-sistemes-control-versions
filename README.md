@@ -28,7 +28,7 @@ L'ús de Git Flow ens ajuda a mantenir una organització clara del projecte, ass
 
 Per a començar en la pràctica, crearem abans de tot el repositori en aquest cas, jo li he dit "practica-sistemes-control-versions"
 
-    ![alt text](imgs/1.PNG)
+![alt text](imgs/1.PNG)
 
 ### 2.2 Creació del projecte
 
@@ -191,7 +191,7 @@ Per a començar en la pràctica, crearem abans de tot el repositori en aquest ca
     ![alt text](imgs/6.PNG)
 
 6. **Pujada de canvis a la branca develop en remot**.
-    Finalment, pujaren els canvis a la branca develop en el repositori remot amb un push.
+    Finalment, pujarem els canvis a la branca develop en el repositori remot amb un push.
 
     ![alt text](imgs/5.PNG)
 
@@ -333,7 +333,7 @@ Fins ara, totes les modificacions que hem fet a través de diverses feature esta
 
 Amb l'usuari 3, realitzarem els seguents pasos:
 
-1. **Inicialitzar la release**.Iniciem la feature "v1.0". Ens creará una branca amb el mateix nom:
+1. **Inicialitzar la release**.Iniciem la release "v1.0". Ens creará una branca amb el mateix nom:
    
     ![alt text](imgs/20.PNG)
 
@@ -361,13 +361,25 @@ Després de haver realitzat tots els procesos anteriors, amb l'Usuari 1 detectem
     Iniciem el hotfix "v1.0". Ens creará una branca amb el mateix nom:
 
     ![alt text](imgs/24_1.PNG)
+
+2. **Millorar contingut html de l'usuari 2**.
+    He modificat el html per a millorar el contingut muntat per l'usuari 2, he afegit el seguent:
+
+    ```html
+    <button onclick="document.getElementById('demo1').innerHTML = 'El contenido1 ha sido modificado!'">Cambiar
+        Contenido</button>
+    <p id="demo1">Este es el contenido original.</p>
+
+    <button onclick="document.getElementById('cssDemo1').style.color = 'blue'">Cambiar Color</button>
+    <p id="cssDemo1">Este texto cambiará de color.</p>
+    ```
     
-2. **Comprovament estat, add i commit**.
+3. **Comprovament estat, add i commit**.
    Posteriorment, comprobarem l'estat i afegirem els canvis a l'àrea de preparació i realitzarem un commit aon tancarem la issue:
 
     ![alt text](imgs/25.PNG)
 
-3. **Finalització del hotfix**.
+4. **Finalització del hotfix**.
     Finalitzarem, el hotfix. Una vegada clavem el comando necessari per a tancar el hotfix se'ns obrirà tres finestres aon tindrem que confirmar els merge a main i develop i li posarem un missatge al tag.
 
     ![alt text](imgs/26.PNG)
@@ -378,7 +390,7 @@ Després de haver realitzat tots els procesos anteriors, amb l'Usuari 1 detectem
 
     ![alt text](imgs/27_2.PNG)
 
-4. **Pujada de canvis a la branca develop i main en remot**.
+5. **Pujada de canvis a la branca develop i main en remot**.
    Finalment, pujaren els canvis a la branca develop i main en el repositori remot amb un push:
 
     ![alt text](imgs/28_2.PNG)
@@ -405,7 +417,7 @@ Després de haver realitzat tots els procesos anteriors, amb l'Usuari 1 detectem
 
 1. **Creació arxiu md i carpeta imatges i comprovament estat, add i commit**.
     Crearem el arxiu .md aon posarem la documentació de la pràctica i la carpeta aon aniràn les captures.
-    UNa vegada fet això, comprobarem l'estat i afegirem els canvis a l'àrea de preparació i realitzarem un commit:
+    Una vegada fet això, comprobarem l'estat i afegirem els canvis a l'àrea de preparació i realitzarem un commit:
 
     ![alt text](imgs/31.PNG)
 
